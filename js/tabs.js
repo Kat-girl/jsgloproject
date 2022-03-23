@@ -4,9 +4,6 @@ const tabImages = document.querySelectorAll('.design-images');
 const tabFeatureImages = document.querySelectorAll('.design-block__img');
 const tabDesingnTitles = document.querySelectorAll('.design__title');
 
-console.log(tabDesingnTitles);
-
-
 const changeContent = (array, value) => {
     array.forEach((elem) => {
             if (elem.dataset.tabsField === value) {
