@@ -3,8 +3,6 @@ const modal = document.querySelector('.modal');
 const overlay = modal.querySelector('.overlay');
 const closeButton = modal.querySelector('.modal__close');
 
-console.log(modalButtons);
-
 modalButtons.forEach((modalButton) => {
     modalButton.addEventListener('click', () => {
     modal.classList.remove('hidden');
