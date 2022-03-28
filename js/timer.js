@@ -29,8 +29,7 @@ const updateClock = () => {
          else {
             dateWord = "дней";
         }
-       
-        
+             
     
     timerBlock.textContent = `${days} ${dateWord} ${fHours}:${fMinutes}:${fSeconds}`;
 
